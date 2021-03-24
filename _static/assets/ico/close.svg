@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.474" height="26.474" viewBox="0 0 26.474 26.474">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-47.676" y1="49.175" x2="-47.676" y2="48.18" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#989898"/>
+      <stop offset="0.52" stop-color="gray" stop-opacity="0"/>
+      <stop offset="1" stop-color="#939393" stop-opacity="0.898"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2834" data-name="Group 2834" transform="translate(-1151.457 -36.271)">
+    <rect id="Rectangle_15495" data-name="Rectangle 15495" width="25.474" height="25.474" rx="11.14" transform="translate(1177.431 36.771) rotate(90)" opacity="0.7" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="Rectangle_15496" data-name="Rectangle 15496" width="25.474" height="25.474" rx="5.766" transform="translate(1177.431 36.771) rotate(90)" fill="none" stroke="#ff0" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+  <line id="Line_18" data-name="Line 18" x1="8.83" y2="8.83" transform="translate(9.16 8.596)" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Line_19" data-name="Line 19" x2="8.83" y2="8.83" transform="translate(9.16 8.596)" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

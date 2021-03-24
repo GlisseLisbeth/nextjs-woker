@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+ <svg id="Group_2839" data-name="Group 2839" xmlns="http://www.w3.org/2000/svg" width="13.628" height="13.634" viewBox="0 0 13.628 13.634">
+  <g id="Group_2838" data-name="Group 2838">
+    <rect id="Rectangle_15498" data-name="Rectangle 15498" width="2.814" height="9.09" transform="translate(0.27 4.545)" fill="#fff"/>
+    <path id="Path_8651" data-name="Path 8651" d="M1433.087,1448.172a1.678,1.678,0,1,0-1.663-1.678A1.671,1.671,0,0,0,1433.087,1448.172Z" transform="translate(-1431.424 -1444.817)" fill="#fff"/>
+  </g>
+  <path id="Path_8652" data-name="Path 8652" d="M1439.005,1453.68c0-1.278.588-2.039,1.715-2.039,1.034,0,1.531.731,1.531,2.039v4.771h2.8V1452.7c0-2.434-1.38-3.612-3.307-3.612a3.171,3.171,0,0,0-2.74,1.5v-1.224h-2.7v9.089h2.7Z" transform="translate(-1431.424 -1444.817)" fill="#fff"/>
+</svg>

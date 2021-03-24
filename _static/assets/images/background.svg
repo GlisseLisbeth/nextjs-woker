@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="359.64" height="640.12" viewBox="0 0 359.64 640.12">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.39" x2="0.5" y2="-0.39" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9200"/>
+      <stop offset="0.341" stop-color="#ff5a00"/>
+      <stop offset="0.541" stop-color="#ef4214"/>
+      <stop offset="0.961" stop-color="#c70547"/>
+      <stop offset="1" stop-color="#c4004d"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_10389" data-name="Path 10389" d="M0,0H640.12V359.64H0Z" transform="translate(359.64 0) rotate(90)" fill="url(#linear-gradient)"/>
+</svg>

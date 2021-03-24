@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Inkfree";
+    src: url("/fonts/Inkfree.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/black_tomy.otf");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/bold_tomy.otf");
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/extrabold_tomy.otf");
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/light_tomy.otf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/medium_tomy.otf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/regular_tomy.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tomy";
+    src: url("/fonts/thin_tomy.otf");
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+}
