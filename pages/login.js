@@ -1,6 +1,32 @@
 import Link from 'next/link'
+import { signIn } from "next-auth/client";
 
 export default function Index() {
+  const [nickname, setNickname] = useState("");
+  const [data, setData] = useState({ done: null });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    fetch("/api/social/register", {
+      method: "POST",
+      headers: new Headers([["Content-type", "application/json"]]),
+      body: JSON.stringify({
+        nickname,
+        token: props.token,
+      }),
+    })
+      .then((data) => data.json())
+      .then((data) => {
+        if (data.error) {
+          setData({
+            done: false,
+          });
+          return;
+        }
+        localStorage.setItem("token", `Bearer ${data.token}`);
+        Router.push("/");
+      });
+  };
   return (
     <div className="hero">
       <div className="main-bg">
@@ -19,9 +45,16 @@ export default function Index() {
         <footer className="container-footer">
           <div className="login">
             <span>INGRESA CON TUS REDES SOCIALES</span>
-            <div className="container-link">
-              <Link href="/modal-intro">
+            <div className="container-link" onClick={() => signIn("facebook")>
+              <Link href="">
+                <span>Facebook</span>
                 <img src='./assets/ico/login.svg' />
+              </Link>
+            </div>
+            <div className="container-link" onClick={() => signIn("google")>
+              <Link href="">
+              <span>Google</span>
+              <img src='./assets/ico/login.svg' />
               </Link>
             </div>
           </div>
