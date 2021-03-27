@@ -45,17 +45,13 @@ export default function Index() {
         <footer className="container-footer">
           <div className="login">
             <span>INGRESA CON TUS REDES SOCIALES</span>
-            <div className="container-link" onClick={() => signIn("facebook")>
-              <Link href="">
+            <div className="container-link" onClick={() => signIn("facebook")}>
                 <span>Facebook</span>
                 <img src='./assets/ico/login.svg' />
-              </Link>
             </div>
-            <div className="container-link" onClick={() => signIn("google")>
-              <Link href="">
+            <div className="container-link" onClick={() => signIn("google")}>
               <span>Google</span>
               <img src='./assets/ico/login.svg' />
-              </Link>
             </div>
           </div>
           <div className="container-button">

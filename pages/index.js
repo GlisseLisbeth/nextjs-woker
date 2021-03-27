@@ -31,7 +31,7 @@ export default function Index() {
             <img className='button-on img-intro-line' src='./assets/ico/on.svg' />
             <span className="button-text">Desliza para iniciar</span>
             <img className='button-off img-intro-arrow' src='./assets/ico/arrow.svg' />
-            </div>
+          </div>
           </div>
         </footer>
       </main>
